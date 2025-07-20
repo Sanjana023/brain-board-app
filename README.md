@@ -42,7 +42,7 @@
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/movie-favorites-app.git
+   git clone https://github.com/Sanjana023/brain-board-app.git
    cd movie-favorites-app
 
    ```
