@@ -43,7 +43,7 @@
 
    ```bash
    git clone https://github.com/Sanjana023/brain-board-app.git
-   cd movie-favorites-app
+   cd brain-board-app
 
    ```
 
