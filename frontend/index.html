@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/splash.css" rel="stylesheet" />
+    <title>Second Brain</title>
+  </head>
+
+  <body>
+    <!-- Splash screen -->
+    <div id="splash-screen">
+      <div class="neurons">
+        <div class="neuron"></div>
+        <div class="neuron"></div>
+        <div class="neuron"></div>
+        <div class="neuron"></div>
+        <div class="neuron"></div>
+        <div class="neuron"></div>
+      </div>
+      
+      <div class="splash-content">
+        <div class="brain-container">
+          <div class="brain-glow"></div>
+          <div id="brain-icon-container"></div>
+        </div>
+        
+        <div class="loading-text">Loading...</div>
+        
+        <div class="progress-container">
+          <div class="progress-wrapper">
+            <div id="progress-bar"></div>
+          </div>
+          <div id="progress-percent">0%</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Root for React app -->
+    <div id="root" class="hidden"></div>
+
+    <!-- Splash progress -->
+    <script type="module" src="/src/splash.js"></script>
+
+    <!-- React app -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
