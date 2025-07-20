@@ -59,7 +59,7 @@
 
     🗂️Backend .env
     ```bash
-    PORT=5000
+        PORT=5000
         MONGO_URI=your_mongodb_uri
         JWT_SECRET=your_jwt_secret
         CLOUDINARY_CLOUD_NAME=your_cloud_name
@@ -69,7 +69,7 @@
     ```
     🗂️Frontend .env
     ```bash
-    VITE_API_BASE_URL=http://localhost:5000/api/v1
+        VITE_API_BASE_URL=http://localhost:5000/api/v1
         VITE_CLOUDINARY_PRESET=brain-pdf
         VITE_CLOUDINARY_CLOUD_NAME=your_cloud_name
     ```
