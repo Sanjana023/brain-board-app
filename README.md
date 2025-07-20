@@ -89,6 +89,58 @@
    ```
 ---
 
+## 📸 Screenshots
+
+<div align="center">
+  <figure style="display:inline-block; margin: 10px;">
+    <img src="screenshots-brain-app/splash-screen.jpg" width="300px" alt="Dashboard Screenshot"/>
+    <figcaption><b>Initial Loader</b></figcaption>
+  </figure>
+  
+  <figure style="display:inline-block; margin: 10px;">
+    <img src="screenshots-brain-app/signup-page.jpg" width="300px" alt="Upload Screenshot"/>
+    <figcaption><b>Signup Page</b></figcaption>
+  </figure>
+</div>
+
+<div align="center">
+  <figure style="display:inline-block; margin: 10px;">
+    <img src="screenshots-brain-app/signin-page.jpg" width="300px" alt="Preview Screenshot"/>
+    <figcaption><b>Signin page</b></figcaption>
+  </figure>
+  
+  <figure style="display:inline-block; margin: 10px;">
+    <img src="screenshots-brain-app/home-page.jpg" width="300px" alt="Share Link Screenshot"/>
+    <figcaption><b>DashBoard View</b></figcaption>
+  </figure>
+</div>
+
+<div align="center">
+  <figure style="display:inline-block; margin: 10px;">
+    <img src="screenshots-brain-app/addContentModal(for links).jpg" width="300px" alt="Feature 5 Screenshot"/>
+    <figcaption><b>Add Content Modal (for links)</b></figcaption>
+  </figure>
+  
+  <figure style="display:inline-block; margin: 10px;">
+    <img src="screenshots-brain-app/addContentModal(for pdfs).jpg" width="300px" alt="Feature 6 Screenshot"/>
+    <figcaption><b>Add Content Modal (for PDFs)</b></figcaption>
+  </figure>
+</div>
+
+<div align="center">
+  <figure style="display:inline-block; margin: 10px;">
+    <img src="screenshots-brain-app/sharedModal.png" width="300px" alt="Feature 7 Screenshot"/>
+    <figcaption><b>ShareBrain Modal</b></figcaption>
+  </figure>
+  
+  <figure style="display:inline-block; margin: 10px;">
+    <img src="screenshots-brain-app/shared-brain-page.png" width="300px" alt="Feature 8 Screenshot"/>
+    <figcaption><b>Shared Brain Page</b></figcaption>
+  </figure>
+</div>
+
+---
+
 ## Feel free to contact 👇
 https://www.linkedin.com/in/sanjana-dutta-499710291/
 
