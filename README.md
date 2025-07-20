@@ -9,7 +9,7 @@
 - 📥 **Add content** from YouTube, Twitter, Google Docs, or custom links
 - 📄 **Upload PDFs** using Cloudinary + Multer
 - 🖼️ Auto-fetch **YouTube thumbnails** for video links
-- 🧠 **Organize content** with tags and types
+- 🧠 **Organize content** with **dynamic tags** and types
 - 🔗 One-click **redirect to original sources**
 - 🔐 **User authentication** with JWT
 - 📤 **Share your brain** (collection) with others via a unique share link
@@ -57,22 +57,22 @@
 
 - Make sure to create .env files for both backend and frontend with appropriate keys such as:
 
-🗂️Backend .env
-```bash
-   PORT=5000
-    MONGO_URI=your_mongodb_uri
-    JWT_SECRET=your_jwt_secret
-    CLOUDINARY_CLOUD_NAME=your_cloud_name
-    CLOUDINARY_API_KEY=your_api_key
-    CLOUDINARY_API_SECRET=your_api_secret
-    FRONTEND_BASE_URL=http://localhost:5173
-   ```
-🗂️Frontend .env
-```bash
-   VITE_API_BASE_URL=http://localhost:5000/api/v1
-    VITE_CLOUDINARY_PRESET=brain-pdf
-    VITE_CLOUDINARY_CLOUD_NAME=your_cloud_name
-   ```
+    🗂️Backend .env
+    ```bash
+    PORT=5000
+        MONGO_URI=your_mongodb_uri
+        JWT_SECRET=your_jwt_secret
+        CLOUDINARY_CLOUD_NAME=your_cloud_name
+        CLOUDINARY_API_KEY=your_api_key
+        CLOUDINARY_API_SECRET=your_api_secret
+        FRONTEND_BASE_URL=http://localhost:5173
+    ```
+    🗂️Frontend .env
+    ```bash
+    VITE_API_BASE_URL=http://localhost:5000/api/v1
+        VITE_CLOUDINARY_PRESET=brain-pdf
+        VITE_CLOUDINARY_CLOUD_NAME=your_cloud_name
+    ```
 
 4. **Start the backend server**
    ```bash
