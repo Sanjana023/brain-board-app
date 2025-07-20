@@ -1,6 +1,6 @@
-# 🧠 Brain – Your Second Brain App
+# 🧠 BrainBoard – Your Second Brain App
 
-**Brain** is a full-stack **Second Brain App** built using the **MERN stack (TypeScript)**, designed to help you centralize and organize content from multiple platforms like **YouTube**, **Twitter**, **Google Docs**, and even **PDFs** — all in one place.
+**BrainBoard** is a full-stack **Second Brain App** built using the **MERN stack (TypeScript)**, designed to help you centralize and organize content from multiple platforms like **YouTube**, **Twitter**, **Google Docs**, and even **PDFs** — all in one place.
 
 ---
 
@@ -48,15 +48,16 @@
    ```
 
 2. **Install dependencies**
-  ```bash
-    npm install
+    ```bash
+        npm install
 
-   ```
+    ```
 
 3. **Environment Variables**
-Make sure to create .env files for both backend and frontend with appropriate keys such as:
 
-# 🗂️Backend .env
+- Make sure to create .env files for both backend and frontend with appropriate keys such as:
+
+🗂️Backend .env
 ```bash
    PORT=5000
     MONGO_URI=your_mongodb_uri
@@ -66,7 +67,7 @@ Make sure to create .env files for both backend and frontend with appropriate ke
     CLOUDINARY_API_SECRET=your_api_secret
     FRONTEND_BASE_URL=http://localhost:5173
    ```
-# 🗂️Frontend .env
+🗂️Frontend .env
 ```bash
    VITE_API_BASE_URL=http://localhost:5000/api/v1
     VITE_CLOUDINARY_PRESET=brain-pdf
